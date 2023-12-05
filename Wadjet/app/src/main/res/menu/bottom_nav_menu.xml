@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/liveSurveillance"
+            android:title="Live Surveillance"
+            android:icon="@drawable/live_surveillance_icon"/>
+
+        <item
+            android:id="@+id/sensorsToggle"
+            android:title="Sensors"
+            android:icon="@drawable/sensors_toggle_icon"/>
+
+        <item
+            android:id="@+id/emergencyMode"
+            android:title="Emergency Mode"
+            android:icon="@drawable/emergency_mode_icon"/>
+
+</menu>

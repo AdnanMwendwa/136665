@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347957881579",
+    "project_id": "wadjet-370023",
+    "storage_bucket": "wadjet-370023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347957881579:android:ad0b90d9ad019c164c6cae",
+        "android_client_info": {
+          "package_name": "com.example.wadjet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCojPjWiHY0PwqlB2_jxwbu6XHduxVZwMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

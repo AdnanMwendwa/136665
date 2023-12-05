@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+    <!-- Top half-screen background image of a house -->
+
+    <!-- Risk level Image button -->
+
+    <!-- Logs Image button -->
+
+    <ImageView
+        android:id="@+id/houseImageView"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/house_image" />
+
+    <Button
+        android:id="@+id/riskLevelButton"
+        android:layout_width="127dp"
+        android:layout_height="148dp"
+        android:layout_below="@id/houseImageView"
+        android:layout_marginTop="170dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_risk_level" />
+
+    <!-- List of sensors image button -->
+    <ImageButton
+        android:id="@+id/logsButton"
+        android:layout_width="117dp"
+        android:layout_height="144dp"
+        android:layout_below="@id/houseImageView"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="-368dp"
+        android:layout_toStartOf="@id/riskLevelButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_logs" />
+
+    <!-- Security Mode Image button -->
+
+    <!-- Bottom navigation bar -->
+
+    <ImageButton
+        android:id="@+id/sensorsButton"
+        android:layout_width="117dp"
+        android:layout_height="144dp"
+        android:layout_below="@id/houseImageView"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="414dp"
+        android:layout_toEndOf="@id/riskLevelButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_sensors" />
+
+    <ImageButton
+        android:id="@+id/securityModeButton"
+        android:layout_width="121dp"
+        android:layout_height="143dp"
+        android:layout_below="@id/houseImageView"
+        android:layout_marginTop="418dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_security_mode" />
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Live surveillance icon -->
+        <ImageButton
+            android:id="@+id/liveSurveillanceIcon"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_live_surveillance" />
+
+        <!-- Sensors toggle icon -->
+        <ImageButton
+            android:id="@+id/sensorsToggleIcon"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_sensors_toggle" />
+
+        <!-- Emergency mode icon -->
+        <ImageButton
+            android:id="@+id/emergencyModeIcon"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_emergency_mode" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+

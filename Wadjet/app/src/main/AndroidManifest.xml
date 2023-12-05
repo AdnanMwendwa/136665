@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.wadjet">
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wadjet"
+        tools:targetApi="31">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Wadjet"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Log-In Activity -->
+        <activity
+            android:name=".LogInActivity"
+            android:label="@string/login_activity_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Sensor Activity -->
+        <activity
+            android:name=".SensorActivity"
+            android:label="@string/sensor_activity_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Live Surveillance Activity -->
+        <activity
+            android:name=".LiveSurveillanceActivity"
+            android:label="@string/live_surveillance_activity_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Logs Activity -->
+        <activity
+            android:name=".LogsActivity"
+            android:label="@string/logs_activity_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Security Mode Activity -->
+        <activity
+            android:name=".SecurityModeActivity"
+            android:label="@string/security_mode_activity_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+    </application>
+
+</manifest>
+
